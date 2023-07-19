@@ -40,16 +40,3 @@ npm install -g http-server
 // cd dist
 http-server
 ```
-
-## Consume this bundle as a normal html tag element 
-
-> in this case, the bundle (or /assets/index-b***) is it is not exported as web-component
-
-```js
-Uncaught ReferenceError: React is not defined
-    at eval (index.tsx:15:62)
-    at ./src/index.tsx (bundle.js:19:1)
-    at __webpack_require__ (bundle.js:493:41)
-    at bundle.js:533:37
-    at bundle.js:535:12
-```
