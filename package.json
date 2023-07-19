@@ -1,0 +1,39 @@
+{
+	"name": "example",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build-v": "vite build",
+		"preview": "vite preview",
+		"start": "webpack serve",
+		"build-w": "webpack"
+	},
+	"dependencies": {
+		"ajv": "^8.12.0",
+		"axios": "^1.4.0",
+		"cors": "^2.8.5",
+		"js-cookie": "^3.0.5",
+		"preact": "^10.16.0",
+		"preact-compat": "^3.19.0",
+		"preact-custom-element": "^4.2.1",
+		"preact-render-to-string": "^6.2.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.22.9",
+		"@babel/plugin-transform-react-jsx": "^7.22.5",
+		"@babel/preset-env": "^7.22.9",
+		"@babel/preset-react": "^7.22.5",
+		"@babel/preset-typescript": "^7.22.5",
+		"@preact/preset-vite": "^2.5.0",
+		"@types/preact-custom-element": "^4.0.1",
+		"babel-loader": "^9.1.3",
+		"eslint": "^8.45.0",
+		"eslint-config-preact": "^1.3.0",
+		"typescript": "^5.1.6",
+		"vite": "^4.3.2",
+		"webpack": "^5.88.2",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^4.15.1"
+	}
+}
