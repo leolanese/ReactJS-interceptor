@@ -4,10 +4,10 @@ import axios from 'axios';
 const HTTPComponent = () => {
   const makeRequest = async () => {
     try {
-      const response = await axios.get('https://api.example.com/data');
+      const response = await axios.get('https://jsonplaceholder.typicode.com/users');
       console.log('Response:', response.data);
     } catch (error) {
-      console.error('Error:', error);
+      //console.error('Error:', error);
     }
   };
 

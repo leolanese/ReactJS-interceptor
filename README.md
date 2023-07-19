@@ -21,9 +21,7 @@ npm run build
 ```js
 // run webpack to bundle your Preact app
 npm run build-v
-```
 
-```js
 vite v4.4.4 building for production...
 ✓ 52 modules transformed.
 dist/index.html                 0.37 kB │ gzip:  0.28 kB
@@ -39,4 +37,7 @@ npm install -g http-server
 // run:
 // cd dist
 http-server
+
+// test index.html that load the web-component
+http://localhost:5173/
 ```
