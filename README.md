@@ -1,4 +1,4 @@
-# preact-interceptor
+# PReact interceptor with Web-Component
 
 ```js
 npm init preact
