@@ -30,7 +30,7 @@ dist/index.html                 0.37 kB │ gzip:  0.28 kB
 dist/assets/index-b89854d8.js  47.46 kB │ gzip: 18.59 kB
 ```
 
-## Testing the Web-Component
+## Consuming the Web-Component
 
 ```js
 // install:
