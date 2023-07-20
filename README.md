@@ -7,10 +7,10 @@ npm init preact
 
 cd preact-app
 
-// produce prod at http://localhost:5173/
+// serve http://localhost:5173/
 npm run dev
 
-// produce normal prduction portable `/dist` but not as web-component
+// produce portable `/dist`
 npm run build
 ```
 
