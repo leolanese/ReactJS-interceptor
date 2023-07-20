@@ -13,7 +13,7 @@ const HTTPComponent = () => {
 
   return (
     <div>
-      <button onClick={makeRequest}>Make Request</button>
+      <button onClick={makeRequest}>Trigger Request</button>
     </div>
   );
 };

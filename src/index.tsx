@@ -13,7 +13,6 @@ declare global {
   }
   
 export function App() {
-
 	return (
 		<>
 			<HTTPRequest />
@@ -23,4 +22,5 @@ export function App() {
 		);
 	}
 
+// hocking to the /dist/index.html: `<div id="app"></div>`
 render(<App />, document.getElementById('app'));
