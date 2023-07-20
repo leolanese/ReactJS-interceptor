@@ -22,5 +22,5 @@ export function App() {
 		);
 	}
 
-// hocking to the /dist/index.html: `<div id="app"></div>`
+// hook to the /dist/index.html: `<div id="app"></div>`
 render(<App />, document.getElementById('app'));
