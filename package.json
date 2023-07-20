@@ -4,10 +4,9 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"build-v": "vite build",
+		"build": "vite build",
 		"preview": "vite preview",
-		"start": "webpack serve",
-		"build-w": "webpack"
+		"start": "webpack serve"
 	},
 	"dependencies": {
 		"ajv": "^8.12.0",

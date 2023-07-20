@@ -41,3 +41,15 @@ http-server
 // test index.html that load the web-component
 http://localhost:5173/
 ```
+
+
+---
+
+## TIPS
+
+```js
+Uncaught TypeError: Cannot read properties of null (reading '__k')
+    at bn (index-18ebafdc.js:1:15413)
+    at index-18ebafdc.js:3:15918
+```
+
